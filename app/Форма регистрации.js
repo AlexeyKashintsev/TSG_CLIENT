@@ -11,10 +11,8 @@ function formRegistration() {
         form.show();
     };
     
-    // TODO : place your code here
-    
-    model.requery(function () {
+    form.mcGroup.onValueChange = function(event){
+        model.dsFlatsByGroup.params.parGroupID = event.source.value.grp_groups_id;
         model.dsFlatsByGroup.requery();
-    });
-    
+    };
 }

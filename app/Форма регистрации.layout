@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><layout icon="" title="" view="view">
   <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="373px" prefWidth="507px"/>
-  <ModelFormattedField cursor="0" editable="false" enabled="false" name="modelFormattedField" parent="view" prefHeight="20px" prefWidth="170px" text="Выберите номер дома">
+  <ModelFormattedField cursor="0" editable="false" enabled="false" focusable="false" format="" name="modelFormattedField" parent="view" prefHeight="20px" prefWidth="170px" text="Выберите номер дома">
     <AnchorsPaneConstraints height="20px" left="20px" top="10px" width="170px"/>
   </ModelFormattedField>
-  <ModelFormattedField cursor="0" editable="false" enabled="false" name="modelFormattedField1" parent="view" prefHeight="20px" prefWidth="170px" text="Выберите нормер квартиры">
+  <ModelFormattedField cursor="0" editable="false" enabled="false" focusable="false" format="" name="modelFormattedField1" parent="view" prefHeight="20px" prefWidth="170px" text="Выберите нормер квартиры">
     <AnchorsPaneConstraints height="20px" left="20px" top="40px" width="170px"/>
   </ModelFormattedField>
-  <ModelFormattedField cursor="0" enabled="false" name="modelFormattedField2" parent="view" prefHeight="20px" prefWidth="170px" text="Введите нормер телефона">
+  <ModelFormattedField cursor="0" enabled="false" focusable="false" format="" name="modelFormattedField2" parent="view" prefHeight="20px" prefWidth="170px" text="Введите нормер телефона">
     <AnchorsPaneConstraints height="20px" left="20px" top="70px" width="170px"/>
   </ModelFormattedField>
-  <ModelFormattedField cursor="0" enabled="false" name="modelFormattedField3" parent="view" prefHeight="20px" prefWidth="170px" text="Введите email">
+  <ModelFormattedField cursor="0" enabled="false" focusable="false" format="" name="modelFormattedField3" parent="view" prefHeight="20px" prefWidth="170px" text="Введите email">
     <AnchorsPaneConstraints height="20px" left="20px" top="100px" width="170px"/>
   </ModelFormattedField>
-  <ModelFormattedField cursor="0" enabled="false" name="modelFormattedField4" parent="view" prefHeight="20px" prefWidth="170px" text="Введите свой пароль">
+  <ModelFormattedField cursor="0" enabled="false" focusable="false" format="" name="modelFormattedField4" parent="view" prefHeight="20px" prefWidth="170px" text="Введите свой пароль">
     <AnchorsPaneConstraints height="20px" left="20px" top="130px" width="170px"/>
   </ModelFormattedField>
-  <ModelCombo cursor="0" displayField="grp_name" displayList="dsMainGroup" name="modelCombo" parent="view" prefHeight="20px" prefWidth="227px">
+  <ModelCombo cursor="0" displayField="grp_name" displayList="dsMainGroup" name="mcGroup" parent="view" prefHeight="20px" prefWidth="227px">
     <AnchorsPaneConstraints height="20px" right="30px" top="10px" width="227px"/>
   </ModelCombo>
   <ModelCombo cursor="0" displayField="lc_flatnumber" displayList="dsFlatsByGroup" name="modelCombo1" parent="view" prefHeight="20px" prefWidth="227px">
     <AnchorsPaneConstraints height="20px" right="30px" top="40px" width="227px"/>
   </ModelCombo>
-  <TextField name="textField" parent="view" prefHeight="20px" prefWidth="230px">
+  <TextField cursor="0" name="textField" parent="view" prefHeight="20px" prefWidth="230px">
     <AnchorsPaneConstraints height="20px" left="250px" top="70px" width="230px"/>
   </TextField>
-  <TextField name="textField1" parent="view" prefHeight="20px" prefWidth="230px">
+  <TextField cursor="0" name="textField1" parent="view" prefHeight="20px" prefWidth="230px">
     <AnchorsPaneConstraints height="20px" left="250px" top="100px" width="230px"/>
   </TextField>
-  <TextField name="textField2" parent="view" prefHeight="20px" prefWidth="230px">
+  <TextField cursor="0" name="textField2" parent="view" prefHeight="20px" prefWidth="230px">
     <AnchorsPaneConstraints height="20px" left="250px" top="130px" width="230px"/>
   </TextField>
 </layout>
