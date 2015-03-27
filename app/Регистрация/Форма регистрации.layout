@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><layout icon="" title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="373px" prefWidth="507px"/>
+  <ModelCombo cursor="0" displayField="grp_name" displayList="dsMainGroup" name="mcGroup" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="40px" width="240px"/>
+  </ModelCombo>
+  <ModelCombo cursor="0" displayField="lc_flatnumber" displayList="dsFlatsByGroup" name="modelCombo1" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="70px" width="240px"/>
+  </ModelCombo>
+  <TextField cursor="0" name="textPhone" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="100px" width="240px"/>
+  </TextField>
+  <TextField cursor="0" name="textEmail" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="130px" width="240px"/>
+  </TextField>
+  <TextField cursor="0" name="textPswd" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="160px" width="240px"/>
+  </TextField>
+  <Label cursor="0" name="label" parent="view" prefHeight="20px" prefWidth="220px" text="Выберите свою управляющую компанию">
+    <AnchorsPaneConstraints height="20px" left="20px" top="10px" width="220px"/>
+  </Label>
+  <Label cursor="0" name="label1" parent="view" prefHeight="20px" prefWidth="220px" text="Выберите номер дома">
+    <AnchorsPaneConstraints height="20px" left="20px" top="40px" width="220px"/>
+  </Label>
+  <Label cursor="0" name="label2" parent="view" prefHeight="20px" prefWidth="220px" text="Выберите номер квартиры">
+    <AnchorsPaneConstraints height="20px" left="20px" top="70px" width="220px"/>
+  </Label>
+  <Label cursor="0" name="label3" parent="view" prefHeight="20px" prefWidth="220px" text="Введите номер телефона">
+    <AnchorsPaneConstraints height="20px" left="20px" top="100px" width="220px"/>
+  </Label>
+  <Label cursor="0" name="label4" parent="view" prefHeight="20px" prefWidth="220px" text="Введите email">
+    <AnchorsPaneConstraints height="20px" left="20px" top="130px" width="220px"/>
+  </Label>
+  <Label cursor="0" name="label5" parent="view" prefHeight="20px" prefWidth="220px" text="Введите свой пароль">
+    <AnchorsPaneConstraints height="20px" left="20px" top="160px" width="220px"/>
+  </Label>
+  <ModelCombo cursor="0" name="modelCombo" parent="view" prefHeight="20px" prefWidth="240px">
+    <AnchorsPaneConstraints height="20px" left="240px" top="10px" width="240px"/>
+  </ModelCombo>
+  <Button cursor="0" name="btnRegistration" parent="view" prefHeight="30px" prefWidth="160px" text="Зарегистрироваться">
+    <AnchorsPaneConstraints bottom="13px" height="30px" right="27px" width="160px"/>
+  </Button>
+</layout>

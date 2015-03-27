@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <entity Name="dsMainGroup" Title="" entityHeight="232" entityIconified="false" entityId="142607546334370" entityLocationX="233" entityLocationY="69" entityWidth="150" queryId="dsMainGroup" tableName="" tableSchemaName=""/>
-  <entity Name="dsAllUsers" Title="" entityHeight="147" entityIconified="false" entityId="142607546025019" entityLocationX="660" entityLocationY="60" entityWidth="150" queryId="dsAllUsers" tableName="" tableSchemaName=""/>
-  <entity Name="dsFlatsByGroup" Title="" entityHeight="149" entityIconified="false" entityId="142607546173477" entityLocationX="453" entityLocationY="94" entityWidth="150" queryId="dsFlatsByGroup" tableName="" tableSchemaName=""/>
-  <entity Name="params" Title="" entityHeight="200" entityIconified="false" entityId="142615313788145" entityLocationX="19" entityLocationY="68" entityWidth="150" queryId="params" tableName="" tableSchemaName=""/>
-  <referenceRelation leftEntityFieldName="grp_parent" leftEntityId="142607546334370" rightEntityFieldName="grp_groups_id" rightEntityId="142607546334370"/>
-  <referenceRelation leftEntityFieldName="lc_flat_id" leftEntityId="142607546025019" rightEntityFieldName="lc_flat_id" rightEntityId="142607546173477"/>
-  <referenceRelation leftEntityFieldName="grp_type" leftEntityId="142607546334370" rightEntityFieldName="grp_type_id" rightEntityId="142607546334370"/>
-</datamodel>
