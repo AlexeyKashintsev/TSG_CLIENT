@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="411px" prefWidth="500px"/>
+  <ModelGrid cursor="0" data="dsSums" name="modelGrid" parent="view" prefHeight="411px" prefWidth="500px">
+    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+    <ServiceGridColumn name="rows-header-service" resizable="true"/>
+    <ModelGridColumn field="usl_name" name="colUsl" readonly="true" title="Услуга" width="75px">
+      <ModelCombo displayField="usl_name"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="calc_value" name="colVal" readonly="true" title="Объем" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="rate" name="colCost" title="Стоимость" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="calc" name="col100" readonly="true" title="Начислено" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="benefit" name="colBenefit" readonly="true" title="Льгота" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="recalc" name="colRecalc" title="Перерасчет" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="full_calc" name="colCalc" readonly="true" title="Итого" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>

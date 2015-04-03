@@ -6,6 +6,7 @@ function formRegistrationAuthorization() {
     var self = this
             , model = P.loadModel(this.constructor.name)
             , form = P.loadForm(this.constructor.name, model);
+    var parentForm = null;
     
     self.show = function () {
         form.show();
@@ -17,12 +18,16 @@ function formRegistrationAuthorization() {
         // TODO : place your code here
     });
     
-    form.btnAuthorization.onActionPerformed = function(event) {
+    form.btnAuthorization.onActionPerformed = function(event) {      
         var fmAut = new formAuthorization();
-        fmAut.show();
+        self.parentForm.panelAdd(fmAut);
     };
     form.btnRegistration.onActionPerformed = function(event) {
         var fmReg = new formRegistration();
-        fmReg.show();
+        self.parentForm.panelAdd(fmReg);
     };
+    
+    self.add = function(aPanel){
+        aPanel.add(form.view);
+    }
 }

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <entity Name="dsMainGroup" Title="" entityHeight="232" entityIconified="false" entityId="142607546334370" entityLocationX="90" entityLocationY="58" entityWidth="150" queryId="dsMainGroup" tableName="" tableSchemaName=""/>
-  <entity Name="dsFlatsByGroup" Title="" entityHeight="149" entityIconified="false" entityId="142607546173477" entityLocationX="324" entityLocationY="82" entityWidth="150" queryId="dsFlatsByGroup" tableName="" tableSchemaName=""/>
+  <entity Name="dsMainGroup" Title="" entityHeight="232" entityIconified="false" entityId="142607546334370" entityLocationX="207" entityLocationY="10" entityWidth="150" queryId="dsMainGroup" tableName="" tableSchemaName=""/>
+  <entity Name="dsFlatsByGroup" Title="" entityHeight="149" entityIconified="false" entityId="142607546173477" entityLocationX="390" entityLocationY="93" entityWidth="150" queryId="dsFlatsByGroup" tableName="" tableSchemaName=""/>
+  <entity Name="dsTSG" Title="" entityHeight="200" entityIconified="false" entityId="142772276756610" entityLocationX="1" entityLocationY="40" entityWidth="150" queryId="dsTSG" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="grp_parent" leftEntityId="142607546334370" rightEntityFieldName="grp_groups_id" rightEntityId="142772276756610"/>
+  <referenceRelation leftEntityFieldName="grp_parent" leftEntityId="142772276756610" rightEntityFieldName="grp_groups_id" rightEntityId="142607546334370"/>
+  <referenceRelation leftEntityFieldName="grp_parent" leftEntityId="142772276756610" rightEntityFieldName="grp_groups_id" rightEntityId="142772276756610"/>
   <referenceRelation leftEntityFieldName="grp_parent" leftEntityId="142607546334370" rightEntityFieldName="grp_groups_id" rightEntityId="142607546334370"/>
   <referenceRelation leftEntityFieldName="grp_type" leftEntityId="142607546334370" rightEntityFieldName="grp_type_id" rightEntityId="142607546334370"/>
+  <referenceRelation leftEntityFieldName="grp_type" leftEntityId="142772276756610" rightEntityFieldName="grp_type_id" rightEntityId="142607546334370"/>
 </datamodel>

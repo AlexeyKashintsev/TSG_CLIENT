@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><layout icon="" title="" view="view">
-  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="400px" prefWidth="500px"/>
   <Label cursor="0" name="label" parent="view" prefHeight="20px" prefWidth="120px" text="Введите свой email">
     <AnchorsPaneConstraints height="20px" left="40px" top="90px" width="120px"/>
   </Label>
-  <TextField name="textField" parent="view" prefHeight="20px" prefWidth="160px">
+  <TextField cursor="0" name="textField" parent="view" prefHeight="20px" prefWidth="160px">
     <AnchorsPaneConstraints height="20px" left="200px" top="90px" width="160px"/>
   </TextField>
   <Label cursor="0" name="label1" parent="view" prefHeight="20px" prefWidth="120px" text="Введите пароль">
     <AnchorsPaneConstraints height="20px" left="40px" top="120px" width="120px"/>
   </Label>
-  <PasswordField name="passwordField" parent="view" prefHeight="20px" prefWidth="160px">
+  <PasswordField cursor="0" name="passwordField" parent="view" prefHeight="20px" prefWidth="160px">
     <AnchorsPaneConstraints height="20px" left="200px" top="120px" width="160px"/>
   </PasswordField>
   <Button cursor="0" name="button" parent="view" prefHeight="20px" prefWidth="70px" text="Войти">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
-  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
-  <Button cursor="0" name="btnAuthorization" parent="view" prefHeight="20px" prefWidth="70px" text="Войти">
-    <AnchorsPaneConstraints height="20px" left="260px" top="0px" width="70px"/>
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="400px" prefWidth="500px"/>
+  <Button cursor="0" name="btnAuthorization" parent="view" prefHeight="20px" prefWidth="110px" text="Войти">
+    <AnchorsPaneConstraints height="20px" left="260px" top="0px" width="110px"/>
   </Button>
-  <Button cursor="0" name="btnRegistration" parent="view" prefHeight="20px" prefWidth="70px" text="Регистрация">
-    <AnchorsPaneConstraints height="20px" right="0px" top="0px" width="70px"/>
+  <Button cursor="0" name="btnRegistration" parent="view" prefHeight="20px" prefWidth="110px" text="Регистрация">
+    <AnchorsPaneConstraints height="20px" right="0px" top="0px" width="110px"/>
   </Button>
-  <Label cursor="0" name="label" parent="view" prefHeight="60px" prefWidth="400px" text="Добро пожаловать на сайт! Авторизуйтесь или пройдите регистрацию">
-    <AnchorsPaneConstraints height="60px" left="0px" top="130px" width="400px"/>
+  <Label cursor="0" name="label" parent="view" prefHeight="80px" prefWidth="500px" text="Добро пожаловать на сайт! Пожалуйста, пройдите регистрацию или авторизуйтесь!">
+    <AnchorsPaneConstraints height="80px" left="0px" right="0px" top="110px"/>
   </Label>
 </layout>

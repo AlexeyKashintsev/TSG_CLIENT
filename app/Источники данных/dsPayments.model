@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <entity Name="all_dates" Title="" entityHeight="200" entityIconified="false" entityId="142804905281159" entityLocationX="394" entityLocationY="93" entityWidth="150" queryId="all_dates" tableName="" tableSchemaName=""/>
+  <entity Name="qPaymentsInFlat" Title="" entityHeight="200" entityIconified="false" entityId="142804900549213" entityLocationX="152" entityLocationY="99" entityWidth="150" queryId="qPaymentsInFlat" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="date_id" leftEntityId="142804900549213" rightEntityFieldName="per_date_id" rightEntityId="142804905281159"/>
+</datamodel>

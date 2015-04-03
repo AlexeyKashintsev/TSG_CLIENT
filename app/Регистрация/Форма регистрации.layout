@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><layout icon="" title="" view="view">
-  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="373px" prefWidth="507px"/>
-  <ModelCombo cursor="0" displayField="grp_name" displayList="dsMainGroup" name="mcGroup" parent="view" prefHeight="20px" prefWidth="240px">
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="400px" prefWidth="500px"/>
+  <ModelCombo cursor="0" displayField="grp_name" displayList="dsMainGroup" name="mcGroup" nullable="false" parent="view" prefHeight="20px" prefWidth="240px">
     <AnchorsPaneConstraints height="20px" left="240px" top="40px" width="240px"/>
   </ModelCombo>
-  <ModelCombo cursor="0" displayField="lc_flatnumber" displayList="dsFlatsByGroup" name="modelCombo1" parent="view" prefHeight="20px" prefWidth="240px">
+  <ModelCombo cursor="0" displayField="lc_flatnumber" displayList="dsFlatsByGroup" focusable="true" name="modelCombo1" nullable="false" parent="view" prefHeight="20px" prefWidth="240px">
     <AnchorsPaneConstraints height="20px" left="240px" top="70px" width="240px"/>
   </ModelCombo>
   <TextField cursor="0" name="textPhone" parent="view" prefHeight="20px" prefWidth="240px">
@@ -33,7 +33,7 @@
   <Label cursor="0" name="label5" parent="view" prefHeight="20px" prefWidth="220px" text="Введите свой пароль">
     <AnchorsPaneConstraints height="20px" left="20px" top="160px" width="220px"/>
   </Label>
-  <ModelCombo cursor="0" name="modelCombo" parent="view" prefHeight="20px" prefWidth="240px">
+  <ModelCombo cursor="0" displayField="grp_name" displayList="dsTSG" name="mcTSG" nullable="false" parent="view" prefHeight="20px" prefWidth="240px">
     <AnchorsPaneConstraints height="20px" left="240px" top="10px" width="240px"/>
   </ModelCombo>
   <Button cursor="0" name="btnRegistration" parent="view" prefHeight="30px" prefWidth="160px" text="Зарегистрироваться">

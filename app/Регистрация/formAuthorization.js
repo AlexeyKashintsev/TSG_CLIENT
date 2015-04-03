@@ -17,4 +17,8 @@ function formAuthorization() {
         // TODO : place your code here
     });
     
+    self.add = function(aPanel){
+        aPanel.add(form.view);
+    }
+    
 }

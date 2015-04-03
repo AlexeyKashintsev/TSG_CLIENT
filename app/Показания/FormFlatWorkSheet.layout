@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <TabbedPane cursor="0" name="tabbedPane" parent="view" prefHeight="300px" prefWidth="400px" selectedComponent="pnlSumsPerFlat">
+    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+  </TabbedPane>
+  <BorderPane background="#ffffff" cursor="0" name="pnlSumsPerFlat" parent="tabbedPane" prefHeight="272px" prefWidth="395px">
+    <TabbedPaneConstraints tabTitle="Начисления"/>
+  </BorderPane>
+  <BorderPane background="#ffffff" cursor="0" name="pnlSaldoHistory" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+    <TabbedPaneConstraints tabTitle="История сальдо"/>
+  </BorderPane>
+  <BorderPane background="#ffffff" cursor="0" name="pnlCounterValues" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+    <TabbedPaneConstraints tabTitle="Счетчики"/>
+  </BorderPane>
+  <BorderPane background="#ffffff" cursor="0" name="pnlPayments" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+    <TabbedPaneConstraints tabTitle="Оплаты"/>
+  </BorderPane>
+</layout>

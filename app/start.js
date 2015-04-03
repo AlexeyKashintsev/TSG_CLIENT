@@ -5,8 +5,8 @@
 // this === global
 (function () {
     function ready() {
-        P.require(['formRegistrationAuthorization'], function(){
-            var m = new formRegistrationAuthorization();
+        P.require(['FormFlatWorkSheet'], function(){
+            var m = new FormFlatWorkSheet();
             m.show();
         }, function(e){
             P.Logger.severe(e);

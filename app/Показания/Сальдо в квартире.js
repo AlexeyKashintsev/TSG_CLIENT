@@ -2,7 +2,7 @@
  * 
  * @author TSG
  */
-function formMain() {
+function FormSaldoHistory() {
     var self = this
             , model = P.loadModel(this.constructor.name)
             , form = P.loadForm(this.constructor.name, model);
@@ -17,14 +17,7 @@ function formMain() {
         // TODO : place your code here
     });
     
-    form.onWindowOpened = function(event) {
-        var fmRegAut = new formRegistrationAuthorization();
-        fmRegAut.parentForm = self;
-        fmRegAut.add(form.panel);
-    };
-    
-    self.panelAdd = function(formView){
-        formView.add(form.panel);
+    self.add = function(aPanel){
+        aPanel.add(form.view);
     }
-    
 }

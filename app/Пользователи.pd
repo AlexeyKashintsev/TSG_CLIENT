@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel datasource="null">
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607508098127" entityLocationX="195" entityLocationY="22" entityWidth="150" tableName="grp_lc_group"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607508954330" entityLocationX="384" entityLocationY="20" entityWidth="150" tableName="grp_groups"/>
-  <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607503365379" entityLocationX="197" entityLocationY="247" entityWidth="150" tableName="usr_user"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607503365379" entityLocationX="194" entityLocationY="240" entityWidth="150" tableName="usr_user"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="142789381796569" entityLocationX="7" entityLocationY="226" entityWidth="150" tableName="mtd_groups"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="142789381796570" entityLocationX="560" entityLocationY="17" entityWidth="150" tableName="mtd_users"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607504985689" entityLocationX="10" entityLocationY="20" entityWidth="150" tableName="lc_flat"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607528328474" entityLocationX="389" entityLocationY="245" entityWidth="150" tableName="grp_type"/>
 </datamodel>

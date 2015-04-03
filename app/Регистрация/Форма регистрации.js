@@ -12,6 +12,11 @@ function formRegistration() {
         form.show();
     };
     
+     form.mcTSG.onValueChange = function(event){
+        model.dsMainGroup.params.parParent = event.source.value.grp_groups_id;
+        model.dsMainGroup.requery();
+    };
+  
     form.mcGroup.onValueChange = function(event){
         model.dsFlatsByGroup.params.parGroupID = event.source.value.grp_groups_id;
         model.dsFlatsByGroup.requery();
@@ -26,4 +31,9 @@ function formRegistration() {
         mdFunctional.user_registration(model.dsFlatsByGroup.lc_flat_id, form.textPhone.text,
             form.textEmail.text, form.textPswd.text);
     };
+    
+    self.add = function(aPanel){
+        aPanel.add(form.view);
+    }
+    
 }

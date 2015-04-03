@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><layout icon="" title="" view="view">
-  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
-  <AnchorsPane background="#ffffff" cursor="0" name="panel" parent="view" prefHeight="300px" prefWidth="400px">
-    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="400px" prefWidth="500px"/>
+  <AnchorsPane background="#ffffff" cursor="0" name="panel" parent="view" prefHeight="500px" prefWidth="600px">
+    <AnchorsPaneConstraints bottom="-100px" left="0px" right="-100px" top="0px"/>
   </AnchorsPane>
 </layout>

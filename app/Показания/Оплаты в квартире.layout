@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <ModelGrid cursor="0" data="dsPayments" name="modelGrid" parent="view" prefHeight="300px" prefWidth="400px">
+    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+    <ServiceGridColumn name="rows-header-service" resizable="true"/>
+    <ModelGridColumn field="payment_sum" name="colSum" readonly="true" title="Сумма" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="date_id" name="colPeriod" readonly="true" title="Месяц" width="75px">
+      <ModelCombo displayField="TextDate"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="payment_date" name="colDate" readonly="true" title="Дата платежа" width="75px">
+      <ModelDate dateFormat="dd.MM.yyyy"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="opl_comment" name="colSessionComment" readonly="true" title="Сессия оплаты" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="payment_comment" name="colComment" title="Комментарий" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>

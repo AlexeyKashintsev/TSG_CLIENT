@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="400px" prefWidth="500px"/>
+  <ModelGrid cursor="0" data="dsSaldoHistory" name="modelGrid" parent="view" prefHeight="400px" prefWidth="500px">
+    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+    <ServiceGridColumn name="rows-header-service" resizable="true"/>
+    <ModelGridColumn field="date_id" name="colDate" readonly="true" title="Дата" width="75px">
+      <ModelCombo displayField="TextDate"/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_begin" name="colSalBeg" title="Начальное" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_calc" name="colSal100" readonly="true" title="Начислено" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_benefit" name="colSalBenefit" readonly="true" title="Льгота" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_recalc" name="colSalRecalc" readonly="true" title="Перерасчет" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_payments" name="colSalOpl" readonly="true" title="Оплачено" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_penalties_cur" name="colSalPeni" title="Пени" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="sal_end" name="colSalEnd" readonly="true" title="Конечное" width="75px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>
