@@ -4,7 +4,7 @@
     <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
     <ServiceGridColumn name="rows-header-service" resizable="true"/>
     <ModelGridColumn field="date_id" name="colDate" readonly="true" title="Дата" width="75px">
-      <ModelCombo displayField="TextDate"/>
+      <ModelCombo displayField="TextDate" displayList="all_dates"/>
     </ModelGridColumn>
     <ModelGridColumn field="sal_begin" name="colSalBeg" title="Начальное" width="75px">
       <ModelFormattedField format=""/>

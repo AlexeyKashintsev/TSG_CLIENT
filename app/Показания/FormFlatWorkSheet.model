@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<datamodel>
-    <parametersEntity Title="Параметры" entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150">
-    </parametersEntity>
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <entity Name="dsAllAccounts" Title="" entityHeight="200" entityIconified="false" entityId="142831079775537" entityLocationX="425" entityLocationY="98" entityWidth="150" queryId="dsAllAccounts" tableName="" tableSchemaName=""/>
+  <entity Name="params" Title="" entityHeight="200" entityIconified="false" entityId="142831080616002" entityLocationX="131" entityLocationY="94" entityWidth="150" queryId="params" tableName="" tableSchemaName=""/>
 </datamodel>

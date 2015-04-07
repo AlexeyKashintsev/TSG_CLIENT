@@ -7,7 +7,7 @@ function dsSums() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "usl_name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
+        {name: "services_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
         {name: "calc_value", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
         {name: "rate", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
         {name: "calc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
@@ -50,12 +50,12 @@ function dsSums() {
         }
         var Sums = [];
         model.dsSumsPerFlat.params.flat_id = 139195614740789;
-        model.dsSumsPerFlat.params.date_id = 142304158225655;
+        //model.dsSumsPerFlat.params.date_id = 142304158225655;
         model.dsSumsPerFlat.params.parAccount = 142486607303119;
-        model.dsSumsPerFlat.requery();
+        model.dsSumsPerFlat.params.date_id = model.params.schema.date_id;
+        model.dsSumsPerFlat.requery();        
         model.dsSumsPerFlat.forEach(function(aRow) {
-            model.dsServices.requery();
-            Sums.push({usl_name: model.dsServices.usl_name, calc_value: aRow.calc_value, rate: aRow.rate,
+            Sums.push({services_id: aRow.services_id, calc_value: aRow.calc_value, rate: aRow.rate,
             calc: aRow.calc, benefit: aRow.benefit, recalc: aRow.recalc, full_calc: aRow.full_calc});
         })
         return Sums;

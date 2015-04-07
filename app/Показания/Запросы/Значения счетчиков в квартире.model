@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="date_id" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="2" typeName="NUMERIC"/>
+    <parameter description="" name="parAccount" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="2" typeName="NUMERIC"/>
+    <parameter description="" name="flat_id" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="2" typeName="NUMERIC"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805903963915" entityLocationX="178" entityLocationY="9" entityWidth="150" tableAlias="t" tableName="per_counter_values" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805903963957" entityLocationX="524" entityLocationY="17" entityWidth="150" tableAlias="t2" tableName="grp_services" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805903963926" entityLocationX="352" entityLocationY="10" entityWidth="150" tableAlias="t1" tableName="lc_flat_services" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805903963958" entityLocationX="704" entityLocationY="14" entityWidth="150" tableAlias="t3" tableName="grp_lc_group" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805929185745" entityLocationX="179" entityLocationY="214" entityWidth="150" queryId="counters_by_flat" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityFieldName="group_id" leftEntityId="142805903963958" rightEntityFieldName="group_id" rightEntityId="142805903963957"/>
+  <relation leftEntityFieldName="lc_id" leftEntityId="142805903963926" rightEntityFieldName="lc_id" rightEntityId="142805903963958"/>
+  <relation leftEntityFieldName="counter_id" leftEntityId="142805929185745" rightEntityFieldName="counter_id" rightEntityId="142805903963915"/>
+  <relation leftEntityId="-1" leftEntityParameterName="parAccount" rightEntityFieldName="account_id" rightEntityId="142805903963957"/>
+  <relation leftEntityId="-1" leftEntityParameterName="parAccount" rightEntityFieldName="account_id" rightEntityId="142805903963926"/>
+  <relation leftEntityFieldName="flat_service" leftEntityId="142805929185745" rightEntityFieldName="lc_flat_services_id" rightEntityId="142805903963926"/>
+  <relation leftEntityId="-1" leftEntityParameterName="date_id" rightEntityFieldName="date_id" rightEntityId="142805903963915"/>
+  <relation leftEntityId="-1" leftEntityParameterName="parAccount" rightEntityId="142805929185745" rightEntityParameterName="account_id"/>
+  <relation leftEntityId="-1" leftEntityParameterName="flat_id" rightEntityId="142805929185745" rightEntityParameterName="flat_id"/>
+  <relation leftEntityFieldName="services_id" leftEntityId="142805903963957" rightEntityFieldName="services_id" rightEntityId="142805903963926"/>
+</datamodel>

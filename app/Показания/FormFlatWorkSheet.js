@@ -30,5 +30,7 @@ function FormFlatWorkSheet() {
         var fmPay = new FormPaymentsInFlat();
         fmPay.parentForm = self;
         fmPay.add(form.pnlPayments);
+        var fmDate = new FormDateSelector();
+        fmDate.add(form.pnlDate);
     };
 }

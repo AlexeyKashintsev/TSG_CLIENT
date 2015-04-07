@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
   <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
-  <ModelGrid cursor="0" data="counters_values_by_flat" name="modelGrid" parent="view" prefHeight="300px" prefWidth="400px">
+  <ModelGrid cursor="0" data="dsCounterValues" name="modelGrid" parent="view" prefHeight="300px" prefWidth="400px">
     <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
-    <ServiceGridColumn name="rows-header-service"/>
+    <ServiceGridColumn name="rows-header-service" resizable="true"/>
     <ModelGridColumn field="services_id" name="colService" title="Счетчик" width="90px">
-      <ModelCombo displayField="usl_name" displayList="qServices"/>
+      <ModelCombo displayField="usl_name" displayList="dsServices"/>
     </ModelGridColumn>
     <ModelGridColumn field="beg_val" name="colBegValue" title="Начало" width="90px">
       <ModelFormattedField format="#0" valueType="0"/>

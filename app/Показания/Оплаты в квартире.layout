@@ -7,9 +7,9 @@
       <ModelFormattedField format=""/>
     </ModelGridColumn>
     <ModelGridColumn field="date_id" name="colPeriod" readonly="true" title="Месяц" width="75px">
-      <ModelCombo displayField="TextDate"/>
+      <ModelCombo displayField="TextDate" displayList="all_dates"/>
     </ModelGridColumn>
-    <ModelGridColumn field="payment_date" name="colDate" readonly="true" title="Дата платежа" width="75px">
+    <ModelGridColumn field="date" name="colDate" readonly="true" title="Дата платежа" width="75px">
       <ModelDate dateFormat="dd.MM.yyyy"/>
     </ModelGridColumn>
     <ModelGridColumn field="opl_comment" name="colSessionComment" readonly="true" title="Сессия оплаты" width="75px">

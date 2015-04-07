@@ -8,7 +8,7 @@ function dsPayments() {
     
     this.schema = [
         {name: "payment_sum", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "Mon", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
+        {name: "date_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
         {name: "date", entity: "optionalEntityName", description: "Some property1 description", type: Date, key: true},
         {name: "payment_comment", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
         {name: "opl_comment", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true}
@@ -46,9 +46,8 @@ function dsPayments() {
         model.qPaymentsInFlat.params.flat_id = 139195614740789;
         model.qPaymentsInFlat.params.account_id = 142486607303119;
         model.qPaymentsInFlat.requery();
-        model.all_dates.requery();
         model.qPaymentsInFlat.forEach(function(aRow) {
-            Payments.push({payment_sum: aRow.payment_sum, Mon: model.all_dates.Mon, date: aRow.payment_date,
+            Payments.push({payment_sum: aRow.payment_sum, date_id: aRow.date_id, date: aRow.payment_date,
             payment_commen: aRow.payment_commen, opl_comment: aRow.opl_comment});
         })
         return Payments;

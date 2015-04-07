@@ -7,6 +7,10 @@ function dsCounterValues() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
+        {name: "services_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
+        {name: "beg_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
+        {name: "end_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
+        {name: "cons_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
@@ -16,6 +20,9 @@ function dsCounterValues() {
     ];
     
     this.params = [
+        {name: "date_id", type: Number},
+        {name: "flat_id", type: Number},
+        {name: "parAccount", type: Number}
         // TODO : place parameters definition here, such as:
         /*
          {name: "param1Name", type: String}
@@ -34,9 +41,19 @@ function dsCounterValues() {
         if (aOnSuccess) {
             // TODO : place here your asynchronous data achivement code. Fetching from mongodb for example
             // aOnSuccess(/*some data*/);
-        } else {
+        } else {};
+        var Counters = [];
+        model.counters_values_by_flat.params.flat_id = 139195614740789;
+        model.counters_values_by_flat.params.date_id = 142304158225655;
+        model.counters_values_by_flat.parAccount = 142486607303119;
+        model.counters_values_by_flat.requery();
+        model.counters_values_by_flat.forEach(function(aRow) {
+            Counters.push({services_id: aRow.services_id, beg_val: aRow.beg_val, 
+            end_val: aRow.end_val, cons_val: aRow.cons_val});
+        })
+        return Counters;
             // TODO : place here your synchronous data achivement code. Fetching from mongodb for example
-            return /*some data*/;
+
             /*[
              {property1Name: "object 1 name", property2Name: "object 1 description", property3Name: 2},
              {property1Name: "object 2 name", property2Name: "object 2 description", property3Name: 20},
@@ -45,7 +62,7 @@ function dsCounterValues() {
              {property1Name: "object 5 name", property2Name: "object 5 description", property3Name: 20},
              ];
              */
-        }
+        
     };
     
     /**

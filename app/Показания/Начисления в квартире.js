@@ -18,6 +18,18 @@ function FormSumsPerFlat() {
     });
     
     self.add = function(aPanel){
+        model.requery();
         aPanel.add(form.view);
-    }
+    };
+    
+    model.params.onRequeried = function(event) {
+        model.dsSums.params.date = model.params.date_id;
+        model.dsSums.requery();
+    };
+
+    form.onWindowOpened = function(event) {
+        model.dsSums.params.date = model.params.date_id;
+        model.dsSums.requery();
+    };
+
 }

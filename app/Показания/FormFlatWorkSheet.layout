@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
   <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
-  <TabbedPane cursor="0" name="tabbedPane" parent="view" prefHeight="300px" prefWidth="400px" selectedComponent="pnlSumsPerFlat">
-    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
+  <TabbedPane cursor="0" name="tabbedPane" parent="view" prefHeight="240px" prefWidth="400px" selectedComponent="pnlSumsPerFlat">
+    <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="60px"/>
   </TabbedPane>
-  <BorderPane background="#ffffff" cursor="0" name="pnlSumsPerFlat" parent="tabbedPane" prefHeight="272px" prefWidth="395px">
+  <BorderPane background="#ffffff" cursor="0" name="pnlSumsPerFlat" parent="tabbedPane" prefHeight="212px" prefWidth="395px">
     <TabbedPaneConstraints tabTitle="Начисления"/>
   </BorderPane>
-  <BorderPane background="#ffffff" cursor="0" name="pnlSaldoHistory" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+  <BorderPane background="#ffffff" cursor="0" name="pnlSaldoHistory" parent="tabbedPane" prefHeight="212px" prefWidth="395px" visible="false">
     <TabbedPaneConstraints tabTitle="История сальдо"/>
   </BorderPane>
-  <BorderPane background="#ffffff" cursor="0" name="pnlCounterValues" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+  <BorderPane background="#ffffff" cursor="0" name="pnlCounterValues" parent="tabbedPane" prefHeight="212px" prefWidth="395px" visible="false">
     <TabbedPaneConstraints tabTitle="Счетчики"/>
   </BorderPane>
-  <BorderPane background="#ffffff" cursor="0" name="pnlPayments" parent="tabbedPane" prefHeight="272px" prefWidth="395px" visible="false">
+  <BorderPane background="#ffffff" cursor="0" name="pnlPayments" parent="tabbedPane" prefHeight="212px" prefWidth="395px" visible="false">
     <TabbedPaneConstraints tabTitle="Оплаты"/>
   </BorderPane>
+  <AnchorsPane background="#ffffff" cursor="0" name="pnlDate" parent="view" prefHeight="60px" prefWidth="180px">
+    <AnchorsPaneConstraints height="60px" left="0px" top="0px" width="180px"/>
+  </AnchorsPane>
+  <ModelCombo cursor="0" data="params" displayField="account_name" displayList="dsAllAccounts" field="cursor.account_id" name="modelCombo" parent="view" prefHeight="20px" prefWidth="100px">
+    <AnchorsPaneConstraints height="20px" right="0px" top="0px" width="100px"/>
+  </ModelCombo>
 </layout>
