@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <entity Name="all_dates" Title="" entityHeight="200" entityIconified="false" entityId="142806437026439" entityLocationX="131" entityLocationY="87" entityWidth="150" queryId="all_dates" tableName="" tableSchemaName=""/>
   <entity Name="params" Title="" entityHeight="200" entityIconified="false" entityId="142806437975435" entityLocationX="343" entityLocationY="88" entityWidth="150" queryId="params" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="per_date_id" leftEntityId="142806437026439" rightEntityFieldName="date_id" rightEntityId="142806437975435"/>
 </datamodel>

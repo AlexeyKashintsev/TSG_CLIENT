@@ -4,6 +4,7 @@
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607503365379" entityLocationX="194" entityLocationY="240" entityWidth="150" tableName="usr_user"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142789381796569" entityLocationX="7" entityLocationY="226" entityWidth="150" tableName="mtd_groups"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142789381796570" entityLocationX="560" entityLocationY="17" entityWidth="150" tableName="mtd_users"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="142840039134085" entityLocationX="839" entityLocationY="110" entityWidth="150" tableName="usl_services"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607504985689" entityLocationX="10" entityLocationY="20" entityWidth="150" tableName="lc_flat"/>
   <fieldsEntity entityHeight="200" entityIconified="false" entityId="142607528328474" entityLocationX="389" entityLocationY="245" entityWidth="150" tableName="grp_type"/>
 </datamodel>

@@ -3,16 +3,16 @@
   <ModelGrid cursor="0" data="dsCounterValues" name="modelGrid" parent="view" prefHeight="300px" prefWidth="400px">
     <AnchorsPaneConstraints bottom="0px" left="0px" right="0px" top="0px"/>
     <ServiceGridColumn name="rows-header-service" resizable="true"/>
-    <ModelGridColumn field="services_id" name="colService" title="Счетчик" width="90px">
+    <ModelGridColumn field="service_id" name="colService" title="Счетчик" width="91px">
       <ModelCombo displayField="usl_name" displayList="dsServices"/>
     </ModelGridColumn>
     <ModelGridColumn field="beg_val" name="colBegValue" title="Начало" width="90px">
       <ModelFormattedField format="#0" valueType="0"/>
     </ModelGridColumn>
-    <ModelGridColumn field="end_val" name="colEndValue" title="Конец" width="90px">
+    <ModelGridColumn field="end_val" name="colEndValue" title="Конец" width="91px">
       <ModelFormattedField format="#0" valueType="0"/>
     </ModelGridColumn>
-    <ModelGridColumn field="cons_val" name="colCalcValue" title="Расход" width="89px">
+    <ModelGridColumn field="cons_val" name="colCalcValue" title="Расход" width="90px">
       <ModelFormattedField format=""/>
     </ModelGridColumn>
   </ModelGrid>

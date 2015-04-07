@@ -4,11 +4,11 @@
     <parameter description="" name="account_id" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="2" typeName="NUMERIC"/>
   </parameters>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
-  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414975" entityLocationX="170" entityLocationY="120" entityWidth="150" tableAlias="t" tableName="cnt_con2services" tableSchemaName=""/>
-  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414977" entityLocationX="490" entityLocationY="340" entityWidth="150" tableAlias="t2" tableName="cnt_counters" tableSchemaName=""/>
-  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414976" entityLocationX="330" entityLocationY="230" entityWidth="150" tableAlias="t1" tableName="lc_flat_services" tableSchemaName=""/>
-  <relation leftEntityId="-1" leftEntityParameterName="flat_id" rightEntityFieldName="lc_id" rightEntityId="142805936414976"/>
-  <relation leftEntityFieldName="lc_flat_services_id" leftEntityId="142805936414976" rightEntityFieldName="flat_service" rightEntityId="142805936414975"/>
-  <relation leftEntityId="-1" leftEntityParameterName="account_id" rightEntityFieldName="account_id" rightEntityId="142805936414976"/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414975" entityLocationX="433" entityLocationY="41" entityWidth="150" tableAlias="t" tableName="cnt_con2services" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414977" entityLocationX="617" entityLocationY="41" entityWidth="150" tableAlias="t2" tableName="cnt_counters" tableSchemaName=""/>
+  <entity Title="" entityHeight="200" entityIconified="false" entityId="142805936414976" entityLocationX="260" entityLocationY="23" entityWidth="150" tableAlias="t1" tableName="lc_flat_services" tableSchemaName=""/>
   <relation leftEntityFieldName="counter_id" leftEntityId="142805936414975" rightEntityFieldName="cnt_counters_id" rightEntityId="142805936414977"/>
+  <relation leftEntityId="-1" leftEntityParameterName="flat_id" rightEntityFieldName="lc_id" rightEntityId="142805936414976"/>
+  <relation leftEntityId="-1" leftEntityParameterName="account_id" rightEntityFieldName="account_id" rightEntityId="142805936414976"/>
+  <relation leftEntityFieldName="lc_flat_services_id" leftEntityId="142805936414976" rightEntityFieldName="flat_service" rightEntityId="142805936414975"/>
 </datamodel>

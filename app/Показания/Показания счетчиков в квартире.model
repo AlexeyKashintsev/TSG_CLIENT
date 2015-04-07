@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <entity Name="dsServices" Title="" entityHeight="200" entityIconified="false" entityId="142806159338406" entityLocationX="411" entityLocationY="83" entityWidth="150" queryId="dsServices" tableName="" tableSchemaName=""/>
-  <entity Name="dsCounterValues" Title="" entityHeight="200" entityIconified="false" entityId="142806148749584" entityLocationX="131" entityLocationY="96" entityWidth="150" queryId="dsCounterValues" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="services_id" leftEntityId="142806148749584" rightEntityFieldName="usl_services_id" rightEntityId="142806159338406"/>
+  <entity Name="dsCounterValues" Title="" entityHeight="200" entityIconified="false" entityId="142806148749584" entityLocationX="117" entityLocationY="109" entityWidth="235" queryId="dsCounterValues" tableName="" tableSchemaName=""/>
   <referenceRelation leftEntityFieldName="connected_service" leftEntityId="142806159338406" rightEntityFieldName="usl_services_id" rightEntityId="142806159338406"/>
+  <referenceRelation collectionPropertyName="services_list" leftEntityFieldName="services_id" leftEntityId="142806148749584" rightEntityFieldName="usl_services_id" rightEntityId="142806159338406" scalarPropertyName="service_id"/>
   <referenceRelation leftEntityFieldName="parent_service" leftEntityId="142806159338406" rightEntityFieldName="usl_services_id" rightEntityId="142806159338406"/>
 </datamodel>

@@ -7,10 +7,10 @@ function dsCounterValues() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "services_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "beg_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "end_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "cons_val", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true}
+        {name: "services_id", type: Number, ref: {property: "usl_services_id", entity: "usl_services"}},
+        {name: "beg_val", type: Number},
+        {name: "end_val", type: Number},
+        {name: "cons_val", type: Number}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},

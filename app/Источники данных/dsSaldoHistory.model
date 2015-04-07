@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <entity Name="saldo_by_flat" Title="" entityHeight="200" entityIconified="false" entityId="142805092904274" entityLocationX="131" entityLocationY="67" entityWidth="150" queryId="saldo_by_flat" tableName="" tableSchemaName=""/>
+  <entity Name="saldo_by_flat" Title="" entityHeight="200" entityIconified="false" entityId="142805092904274" entityLocationX="132" entityLocationY="67" entityWidth="150" queryId="saldo_by_flat" tableName="" tableSchemaName=""/>
 </datamodel>
