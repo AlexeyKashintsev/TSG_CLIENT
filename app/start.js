@@ -5,8 +5,8 @@
 // this === global
 (function () {
     function ready() {
-        P.require(['FormCounterValuesInFlat'], function(){
-            var m = new FormCounterValuesInFlat();
+        P.require(['FormFlatWorkSheet'], function(){
+            var m = new FormFlatWorkSheet();
             m.show();
         }, function(e){
             P.Logger.severe(e);

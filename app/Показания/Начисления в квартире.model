@@ -2,9 +2,7 @@
   <entity Name="dsSums" Title="" entityHeight="250" entityIconified="false" entityId="142796133511914" entityLocationX="311" entityLocationY="53" entityWidth="154" queryId="dsSums" tableName="" tableSchemaName=""/>
   <entity Name="params" Title="" entityHeight="200" entityIconified="false" entityId="142830806808226" entityLocationX="59" entityLocationY="58" entityWidth="150" queryId="params" tableName="" tableSchemaName=""/>
   <entity Name="dsServices" Title="" entityHeight="200" entityIconified="false" entityId="142806001816021" entityLocationX="540" entityLocationY="53" entityWidth="150" queryId="dsServices" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="services_id" leftEntityId="142796133511914" rightEntityFieldName="usl_services_id" rightEntityId="142806001816021"/>
-  <relation leftEntityFieldName="account_id" leftEntityId="142830806808226" rightEntityId="142796133511914" rightEntityParameterName="account"/>
-  <relation leftEntityFieldName="date_id" leftEntityId="142830806808226" rightEntityId="142796133511914" rightEntityParameterName="date"/>
-  <referenceRelation leftEntityFieldName="parent_service" leftEntityId="142806001816021" rightEntityFieldName="usl_services_id" rightEntityId="142806001816021"/>
   <referenceRelation leftEntityFieldName="connected_service" leftEntityId="142806001816021" rightEntityFieldName="usl_services_id" rightEntityId="142806001816021"/>
+  <referenceRelation leftEntityFieldName="services_id" leftEntityId="142796133511914" rightEntityFieldName="usl_services_id" rightEntityId="142806001816021"/>
+  <referenceRelation leftEntityFieldName="parent_service" leftEntityId="142806001816021" rightEntityFieldName="usl_services_id" rightEntityId="142806001816021"/>
 </datamodel>

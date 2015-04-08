@@ -7,14 +7,14 @@ function dsSaldoHistory() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "date_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_begin", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_calc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_benefit", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_recalc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_payments", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_penalties_cur", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "sal_end", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true}
+        {name: "date_id", type: Number, ref: {property: "per_date_id", entity: "per_date"}},
+        {name: "sal_begin", type: Number},
+        {name: "sal_calc", type: Number},
+        {name: "sal_benefit", type: Number},
+        {name: "sal_recalc", type: Number},
+        {name: "sal_payments", type: Number},
+        {name: "sal_penalties_cur", type: Number},
+        {name: "sal_end", type: Number}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},

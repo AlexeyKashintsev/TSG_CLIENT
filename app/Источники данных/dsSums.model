@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <entity Name="params" Title="" entityHeight="200" entityIconified="false" entityId="142831089051425" entityLocationX="448" entityLocationY="85" entityWidth="150" queryId="params" tableName="" tableSchemaName=""/>
   <entity Name="dsSumsPerFlat" Title="" entityHeight="321" entityIconified="false" entityId="142796439236765" entityLocationX="206" entityLocationY="81" entityWidth="150" queryId="dsSumsPerFlat" tableName="" tableSchemaName=""/>
-  <relation leftEntityFieldName="date_id" leftEntityId="142831089051425" rightEntityId="142796439236765" rightEntityParameterName="date_id"/>
   <referenceRelation leftEntityFieldName="flat_service_id" leftEntityId="142796439236765" rightEntityFieldName="lc_flat_services_id" rightEntityId="142796439236765"/>
 </datamodel>

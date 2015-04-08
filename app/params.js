@@ -7,8 +7,8 @@ function params() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "date_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "account_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true}
+        {name: "date_id", type: Number},
+        {name: "account_id", type: Number}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},

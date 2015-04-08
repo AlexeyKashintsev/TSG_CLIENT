@@ -16,10 +16,24 @@ function FormDateSelector() {
     // TODO : place your code here
 
     model.requery(function () {
-        model.all_dates.;
+        
     });
+    
+    form.onWindowOpened = function(event) {
+        model.all_dates.requery();
+        model.all_dates.cursorPos = model.all_dates.length;
+    };
+
     
     self.add = function(aPanel){
         aPanel.add(form.view);
+    };
+    form.btnPrev.onActionPerformed = function(event) {
+        model.all_dates.cursorPos--;
+        model.params.schema.date_id = model.all_dates.per_date_id;
+    };
+    form.btn_next.onActionPerformed = function(event) {
+        model.all_dates.cursorPos++;
+        model.params.schema.date_id = model.all_dates.per_date_id;
     };
 }

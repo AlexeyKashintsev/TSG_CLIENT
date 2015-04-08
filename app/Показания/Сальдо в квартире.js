@@ -20,4 +20,9 @@ function FormSaldoHistory() {
     self.add = function(aPanel){
         aPanel.add(form.view);
     }
+    
+    form.onWindowOpened = function(event) {
+        model.requery();
+    };
+
 }

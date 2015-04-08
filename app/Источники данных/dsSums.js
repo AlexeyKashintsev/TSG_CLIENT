@@ -7,13 +7,13 @@ function dsSums() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "services_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "calc_value", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "rate", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "calc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "benefit", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "recalc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "full_calc", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true}
+        {name: "services_id", type: Number, ref: {property: "usl_services_id", entity: "usl_services"}},
+        {name: "calc_value", type: Number},
+        {name: "rate", type: Number},
+        {name: "calc", type: Number},
+        {name: "benefit", type: Number},
+        {name: "recalc", type: Number},
+        {name: "full_calc", type: Number}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <entity Name="all_dates" Title="" entityHeight="200" entityIconified="false" entityId="142805262518656" entityLocationX="424" entityLocationY="90" entityWidth="150" queryId="all_dates" tableName="" tableSchemaName=""/>
   <entity Name="dsSaldoHistory" Title="" entityHeight="200" entityIconified="false" entityId="142805200233420" entityLocationX="188" entityLocationY="101" entityWidth="150" queryId="dsSaldoHistory" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="date_id" leftEntityId="142805200233420" rightEntityFieldName="per_date_id" rightEntityId="142805262518656"/>
 </datamodel>

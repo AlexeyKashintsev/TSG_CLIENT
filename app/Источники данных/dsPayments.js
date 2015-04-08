@@ -7,11 +7,11 @@ function dsPayments() {
     var self = this, model = P.loadModel(this.constructor.name);
     
     this.schema = [
-        {name: "payment_sum", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "date_id", entity: "optionalEntityName", description: "Some property1 description", type: Number, key: true},
-        {name: "date", entity: "optionalEntityName", description: "Some property1 description", type: Date, key: true},
-        {name: "payment_comment", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
-        {name: "opl_comment", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true}
+        {name: "payment_sum", type: Number},
+        {name: "date_id", type: Number, ref: {property: "per_date_id", entity: "per_date"}},
+        {name: "date", type: Date},
+        {name: "payment_comment", type: String},
+        {name: "opl_comment", type: String}
         // TODO : place schema definition here, such as:
         /*
          {name: "property1Name", entity: "optionalEntityName", description: "Some property1 description", type: String, key: true},
